@@ -13,12 +13,14 @@ function Pl()
 				if(reverse==originalNumber)
 				{
 					console.log("The number is Palindrome");
-          document.getElementById("result").value="The number is Palindrome";
+                    document.getElementById("result").value="The number is Palindrome";
+					document.getElementById("result").style.color="green";
 				}
 				else
 				{
-					console.log("number is not palindrome");
-          document.getElementById("result").value = "The number is not palindrome"
+					console.log("Number is not palindrome");
+        			  document.getElementById("result").value = "Number is not palindrome";
+					  document.getElementById("result").style.color="blue";
 				}
 			}
       
